@@ -1,0 +1,76 @@
+  /*
+ TITLE: formPrototype.css
+ AUTHOR: Ehtsham Nisar (EN)
+ PURPOSE: Style the finalForm.html page
+ ORIGINALLY CREATED ON: 8 December 2018
+ LAST MODIFIED BY: Ehtsham Nisar
+ MODIFICATION HISTORY:
+ 8 December 2018: Style finalForm.html (EN)
+ */
+
+
+    .demoHeaders {
+        margin-top: 2em;
+    }
+    #dialog-link {
+        padding: .4em 1em .4em 20px;
+        text-decoration: none;
+        position: relative;
+    }
+    #dialog-link span.ui-icon {
+        margin: 0 5px 0 0;
+        position: absolute;
+        left: .2em;
+        top: 50%;
+        margin-top: -8px;
+    }
+    #icons {
+        margin: 0;
+        padding: 0;
+    }
+    #icons li {
+        margin: 2px;
+        position: relative;
+        padding: 4px 0;
+        cursor: pointer;
+        float: left;
+        list-style: none;
+    }
+    #icons span.ui-icon {
+        float: left;
+        margin: 0 4px;
+    }
+    .fakewindowcontain .ui-widget-overlay {
+        position: absolute;
+    }
+    select {
+        width: 200px;
+    }
+
+
+    #textOutput{
+        font-size: 150%;
+        color: black;
+    }
+
+
+
+
+#datepickerID{
+    float:left;
+}
+
+#spinnerAutocomplete{
+    float:left;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+#formButtons{
+    padding-top: 1%;
+}
+
+
+
+
+

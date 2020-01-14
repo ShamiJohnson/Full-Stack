@@ -1,0 +1,239 @@
+  /*
+ TITLE: form.css
+ AUTHOR: Ehtsham Nisar (EN)
+ PURPOSE: Style the finalForm.html page
+ ORIGINALLY CREATED ON: 8 December 2018
+ LAST MODIFIED BY: Ehtsham Nisar
+ MODIFICATION HISTORY:
+ 8 December 2018: Style finalForm.html (EN)
+ */
+
+
+
+/*======== if user input is incorrect turns red ========= */
+.error{
+    color:red;
+}
+
+/*======== if everything goes as its suppose to it will give effect ========= */
+.success{
+    color: #ff9966;
+    text-align: center;
+    font-weight: bold;
+    font-size:14px;
+}
+
+/*======== contains the form ========= */
+.container {
+    max-width:900px;
+    width:100%;
+    margin:0 auto;
+    position:relative;
+}
+
+/*========  setting the font of user input ========= */
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
+
+#contact {
+    background:#F9F9F9;
+    padding:25px;
+    margin:50px 0;
+}
+
+#contact h3 {
+    color: #F96;
+    display: block;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+}
+
+#contact h4 {
+    margin:5px 0 15px;
+    display:block;
+    font-size:13px;
+}
+
+
+
+
+
+/*======== giving border effect ========= */
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact textarea {
+    width:100%;
+    border:1px solid #CCC;
+    background:#FFF;
+    margin:0 0 5px;
+    padding:10px;
+}
+
+
+/*======== giving effect when user HOVERS over the text ========= */
+#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {
+   
+    transition:border-color 0.2s ease-in-out;
+    border:2px solid #AAA;
+}
+
+
+
+
+            /*        fieldset             */
+fieldset {
+    border: medium none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+}
+
+
+
+
+            /*        CONTACT SUBMIT             */
+
+#contact textarea {
+    height:100px;
+    max-width:100%;
+    resize:none;
+}
+
+                    /*   USER INPUT SECTION STYLE     */
+
+#contact input:focus, #contact textarea:focus {
+    outline:0;
+    border:1px solid #999;
+    color:black;
+}
+
+
+
+
+
+.tableRow{
+    padding-bottom: 20px;
+}
+
+legend{
+    padding:0;
+}
+
+
+#submit{
+    float:right;
+
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 28px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    height: 4px;
+}
+
+
+
+
+#Reset{
+   
+
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 28px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+   height: 4px;
+}
+
+
+
+
+#buttons{
+    padding-top: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.modal{
+    color: black;
+}
+
+
+
+
+
+#tabs{
+    background: navy;
+    color: white;
+    background-color: transparent;
+    padding-left: 2%;
+    border-color: transparent;
+
+}
+
+.settingsTabsLI{
+    background-color: transparent;
+    color: blue;
+    padding-bottom: 5%;
+}
+.settingsTabsUL{
+    background: navy;
+    background-color: transparent;
+    color: green;
+    border-color: transparent;
+    /*padding-bottom: 0%;*/
+}
+
+
+  /* for the link divs */
+  .settingsTabsDivs{
+      background: navy;
+      color: white;
+      /*font-size: 300%;*/
+      /*text-align: center;*/
+      background-color: transparent;
+  }
+
+  table{
+      background-color: transparent;
+      width: 20px;
+
+  }
+  td {
+      background-color:transparent ;
+  }
+  th{
+      background-color: transparent;
+  }
+
+
+/* Hide the first row of each table  */
+table > tbody > tr:first-child {
+    display: none;
+}
